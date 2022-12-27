@@ -1,0 +1,208 @@
+@media screen and (max-width: 1200px){
+	.description {
+		padding-left: 40px;
+	}
+	.footer_icon ul li {
+		float: none;
+	}
+
+}
+@media screen and (max-width: 1110px){
+	#footer p {
+		margin-left: 30px;
+	}
+	#contact form input, #contact form textarea {
+		margin-right: 15px;
+	}
+	.container{
+		width: 100%;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.about_me p {
+		padding: 40px 20px;
+		text-align: justify;
+	}
+}
+@media screen and (max-width: 1000px){
+	.description{
+		width: 45%;
+	}
+	.slider_content img {
+		width: 100%;
+		margin-left: 0;
+	}
+}
+@media screen and (max-width: 900px){
+	.col-33 {
+		width: 48%;
+		padding: 5px;
+	}
+	#address .col-33:last-child{
+		margin-top: 70px
+	}
+	.col-25 {
+		width: 48%;
+	}
+	.col-25:nth-child(3) {
+	    margin-top: 70px;
+	}
+	.col-25:last-child {
+	  	margin-top: 70px;
+	}
+	#review h3 {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		font-size: 34px;
+	}
+}
+@media screen and (max-width: 768px){
+	#main_menu{
+		display: none;
+	}
+	.menu_icon {
+		float: right;
+		margin-right: 30px;
+		color: #fff;
+		margin-top: 15px;
+		display: block;
+		cursor: pointer;
+	}
+	.description {
+		margin-top: 150px;
+	}
+	 p{
+		font-size: 16px!important;
+	}
+	h1{
+		font-size: 26px;
+	}
+
+	.description h2{
+		font-size: 26px;
+	}
+	.btn {
+		padding: 8px 20px;
+		font-size: 14px;
+		margin-top: 10px;
+	}
+}
+@media screen and (max-width: 680px){
+	#service .content {
+		padding: 30px 10px;
+	}
+	.description{
+		margin-top: 80px;
+	}
+	#portfolio img {
+		height: 200px;
+	}
+	#footer p {
+		margin-left: 5px;
+		margin-top: 20px;
+	}
+	.footer_icon ul li a {
+		padding: 5px;
+		margin-right: 0;
+	}
+	.col-50 p {
+		font-size: 14px !important;
+		font-weight: 600;
+	}
+}
+@media screen and (max-width: 576px){
+	.col-50,
+	.col-25,
+	.col-33{
+		width: 95%!important;
+	}
+	.description {
+		width: 100%;
+		float: none;
+		text-align: center;
+		padding: 0;
+	}
+	.description p {
+		line-height: 1.7;
+		text-align: center;
+	}
+	.person_image {
+		width: 100%;
+		float: none;
+	}
+	.content h3 {
+		font-size: 14px;
+		text-transform: uppercase;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	#portfolio .overlay {
+		bottom: 5px;
+		padding: 5px;
+	}
+	#portfolio .overlay a{
+		font-size: 14px;
+	}
+	.col-25{
+		margin-top: 50px!important;
+	}
+	#review h3 {
+		margin-top: 5px;
+		margin-bottom: 5px;
+		font-size: 22px;
+	}
+	span {
+		font-size: 18px;
+	}
+
+	#address .col-33{
+		margin-top: 30px!important;
+	}
+	p {
+		font-size: 14px !important;
+	}
+	#footer p {
+		text-align: center;
+	}
+	h6{
+		font-size: 14px;
+	}
+	.company_logo {
+		margin-left: 15px;
+	}
+	.company_logo img {
+		width: 70px;
+		height: 40px;
+	}
+	.about_me p {
+		padding-right: 20px;
+	}
+	
+	#contact .ml-10 {
+		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 390px){
+	.container{
+		padding: 0;
+	}
+	h1{
+		font-size: 16px;
+		padding-bottom: 20px;
+
+	}
+	h2{
+		font-size: 16px!important;
+	}
+	.description {
+		margin-top: 22px;
+	}
+	button{
+		margin: 10px auto;
+		display: block;
+	}
+	.col-50 {
+		margin-left: 10px;
+	}
+}
